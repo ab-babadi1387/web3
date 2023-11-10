@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <p id="demo">hello</p>
+    </body>
+    <script>
+        // ------------------for------تعداد تکرار مشخص------------
+        var num = 0;
+        var i;
+        for (i = 1; i <= 10; i++) {
+            num += Number(prompt(`please enter your${i} number`));
+        }
+        var avg = num / 10;
+        document.getElementById("demo").innerText=(`your average number is:${avg}`);
+
+        // ---------------while----تعداد تکرار مشخص نیست!--------
+
+        var i = 1;
+        while (i < 10) {
+            if (i % 2 !== 0) console.log(i);
+
+            i++;
+        }
+        //---------------------do while-------------------
+        var i = 1;
+        var result ;
+        do {result=i*4
+           ;  console.log(result);i++;
+        } while (i < 20);
+       
+
+    </script>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>switchExamples</title>
+    </head>
+    <body>
+        <script>
+            //example1
+            var NumOfDay = prompt("please enter the namber (0-6) of day:");
+            switch (NumOfDay) {
+                case "0":
+                    alert("today is saturday");
+                    break;
+                case "1":
+                    alert("today is sunday");
+                    break;
+                case "2":
+                    alert("today is monday");
+                    break;
+                case "3":
+                    alrrt("today is tuesday");
+                    break;
+                case "4":
+                    alert("today is wednesday");
+                    break;
+                case "5":
+                    alert("today is thursday");
+                    break;
+                case "6":
+                    alert("today is friday");
+                    break;
+                default:
+                    alert("invalid");
+            }
+
+            //example2
+            var todaylunch = prompt("please enter a day of week:");
+            switch (todaylunch) {
+                case "saturday":
+                    alert("today we eat pasta");
+                    break;
+                case "sunday":
+                    alert("today we eat kebab");
+                    break;
+                case "monday":
+                    alert("today we eat chicken");
+                    break;
+                case "tuesday":
+                    alert("today we eat sandwich");
+                    break;
+                case "wednesday":
+                    alert("today we eat meet and rice");
+                    break;
+                case "thursday":
+                    alert("today we eat soup");
+                    break;
+                case "friday":
+                    alert("today we eat chicken and rice");
+                    break;
+                default:
+                    alert("invalid");
+            }
+            //example3
+            var schedule = prompt("please enter the day of week");
+            switch (schedule) {
+                case "saturday":
+                    alert("go to gym");
+                    break;
+                case "sunday":
+                    alert("go to language course");
+                    break;
+                case "monday":
+                    alert("go to cinema");
+                    break;
+                case "tuesday":
+                    alert("go to park");
+                    break;
+                case "wednesday":
+                    alert("go to gym");
+                    break;
+                case "thursday":
+                    alert("go to music course");
+                    break;
+                case "friday":
+                    alert("read a book");
+                    break;
+                default:
+                    alert("invalid");
+            }
+            //example4
+            var number=prompt("please enter your size number:");
+            switch(number){
+      case "36":
+        alert ("size=> Small");
+        break;
+
+      case "38":
+        alert ("=> Medium");
+        break;
+
+      case"40":
+       alert ("=> Large");
+        break;
+
+      case "42":
+       alert ( "=> Extra Large");
+        break;
+      
+      default:
+        alert ("=> Unknown") ;
+        break;
+}
+//example5
+var month=prompt("please enter number of month")
+switch (month) {
+            case "1": alert (" January");
+                     break;
+            case "2": alert ("February" );
+                     break;
+            case "3": alert ( "March");
+                     break;
+            case "4": alert ( "April");
+                     break;
+            case "5": alert ("May" );
+                     break;
+            case "6": alert ("June" );
+                     break;
+            case "7": alert ("July" );
+                     break;
+            case "8": alert ( "August");
+                     break;
+            case "9": alert ( "September");
+                     break;
+            case "10":alert ( "October");
+                     break;
+            case "11":alert ("November" );
+                     break;
+            case "12":alert ("December" );
+                     break;
+            default:alert ( "Invalid month");
+                     break;
+        }
+        </script>
+    </body>
+</html>
